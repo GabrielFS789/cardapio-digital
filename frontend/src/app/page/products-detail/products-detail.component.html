@@ -1,0 +1,68 @@
+<form [formGroup]="productForm" enctype="multipart/form-data">
+    <div class="container">
+        <mat-form-field [appearance]="appearance">
+            <mat-label>Nome</mat-label>
+            <input matInput formControlName="nome">
+        </mat-form-field>
+
+        <!-- <mat-form-field [appearance]="appearance">
+            <mat-label>Descrição</mat-label>
+            <input matInput formControlName="descricao">
+        </mat-form-field> -->
+
+        <mat-form-field [appearance]="appearance">
+            <mat-label>Unidade De Medida</mat-label>
+            <input matInput formControlName="unidadeMedida">
+        </mat-form-field>
+
+        <input type="file" accept="image/*" (change)="onFileSelected($event)" hidden #imageInput>
+
+        <button mat-flat-button (click)="imageInput.click()">Selecione a imagem</button>
+        <div *ngIf="imagePreview">
+            <mat-card style="width: 80px; height: 80px;">
+                <img mat-card-sm-image [src]="imagePreview" alt="">
+            </mat-card>
+        </div>
+
+
+        <mat-form-field [appearance]="appearance">
+            <mat-label>Preço De Venda</mat-label>
+            <input matInput formControlName="precoVenda" type="number">
+        </mat-form-field>
+
+        <!-- <mat-form-field [appearance]="appearance">
+            <mat-label>Imagem Url</mat-label>
+            <input matInput formControlName="imagemUrl">
+        </mat-form-field> -->
+        <!-- <mat-form-field [appearance]="appearance">
+            <mat-label>Observação</mat-label>
+            <textarea matInput formControlName="observacao"></textarea>
+        </mat-form-field>
+
+        <mat-form-field [appearance]="appearance">
+            <mat-label>Extra 1</mat-label>
+            <input matInput formControlName="extra1">
+        </mat-form-field>
+
+        <mat-form-field [appearance]="appearance">
+            <mat-label>Extra 2</mat-label>
+            <input matInput formControlName="extra2">
+        </mat-form-field>
+
+        <mat-form-field [appearance]="appearance">
+            <mat-label>Extra 3</mat-label>
+            <input matInput formControlName="extra3">
+        </mat-form-field>
+
+        <mat-form-field [appearance]="appearance">
+            <mat-label>Extra 4</mat-label>
+            <input matInput formControlName="extra4">
+        </mat-form-field>
+
+        <mat-form-field [appearance]="appearance">
+            <mat-label>Extra 5</mat-label>
+            <input matInput formControlName="extra5">
+        </mat-form-field> -->
+    </div>
+    <button mat-raised-button (click)="create()">Cadastrar</button>
+</form>

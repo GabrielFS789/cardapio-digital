@@ -1,0 +1,14 @@
+<mat-toolbar style="margin-bottom: 5px;">
+    <img src="logo.png" class="logo" [routerLink]="['/']">
+    <div class="container">
+        <div>
+            <button mat-raised-button [routerLink]="['/']">Produtos</button>
+            <button mat-raised-button [routerLink]="['/cadastro']">Cadastrar</button>
+        </div>
+        <div style="display:flex ;align-items: center">
+            <button mat-icon-button (click)="toggleCart()"><mat-icon>shopping_cart</mat-icon></button>
+            <button (click)="toggleTheme()" mat-icon-button><mat-icon>{{themService.themeSignal() === 'dark-theme'?
+                    'dark_mode' : 'light_mode'}}</mat-icon></button>
+        </div>
+    </div>
+</mat-toolbar>

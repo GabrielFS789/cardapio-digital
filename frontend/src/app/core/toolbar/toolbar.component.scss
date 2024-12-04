@@ -1,0 +1,18 @@
+.container {
+    width: 100%;
+    justify-content: space-between
+}
+
+.logo {
+    height: 100%;
+}
+
+::ng-deep .mdc-switch__icons .mdc-switch__icon--on {
+    display: none;
+    /* Esconde o ícone padrão "on" */
+}
+
+::ng-deep .mdc-switch__icons .mdc-switch__icon--off {
+    display: none;
+    /* Esconde o ícone padrão "on" */
+}

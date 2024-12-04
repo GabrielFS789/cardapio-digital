@@ -1,0 +1,15 @@
+<mat-card class="card">
+    <mat-card-header>
+        <mat-card-title-group>
+            <mat-card-title class="color-primary">{{productInput?.nome}}</mat-card-title>
+        </mat-card-title-group>
+    </mat-card-header>
+    <img mat-card-lg-image [src]="productInput?.imagemUrl" [alt]="productInput?.nome">
+    <mat-card-content class="card-content color-primary">
+        <p>R${{productInput?.precoVenda}} - {{productInput?.unidadeMedida}}</p>
+    </mat-card-content>
+    <mat-card-actions class="card-actions">
+        <button mat-fab (click)="removeProductToCart(productInput!)"><mat-icon>remove</mat-icon></button>
+        <button mat-fab (click)="addProductToCart(productInput!)"><mat-icon>add</mat-icon></button>
+    </mat-card-actions>
+</mat-card>

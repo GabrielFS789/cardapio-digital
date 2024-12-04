@@ -1,0 +1,46 @@
+{
+  "produto": [
+    {
+      "id": 0,
+      "nome": "pudim pedaço",
+      "descricao": null,
+      "precoVenda": 12,
+      "imagemUrl": "http://localhost:3001/images/1731442997755-710488863.jpg",
+      "unidadeMedida": "UN",
+      "observacao": null,
+      "extra1": null,
+      "extra2": null,
+      "extra3": null,
+      "extra4": null,
+      "extra5": null
+    },
+    {
+      "id": 0,
+      "nome": "bolo de pote",
+      "descricao": null,
+      "precoVenda": 20,
+      "imagemUrl": "http://localhost:3001/images/1731443017274-541632117.jpg",
+      "unidadeMedida": "UN",
+      "observacao": null,
+      "extra1": null,
+      "extra2": null,
+      "extra3": null,
+      "extra4": null,
+      "extra5": null
+    },
+    {
+      "id": 0,
+      "nome": "Bolo",
+      "descricao": null,
+      "precoVenda": 22,
+      "imagemUrl": "http://localhost:3001/images/1731516312417-277286029.jpg",
+      "unidadeMedida": "UN",
+      "observacao": null,
+      "extra1": null,
+      "extra2": null,
+      "extra3": null,
+      "extra4": null,
+      "extra5": null
+    }
+  ]
+}

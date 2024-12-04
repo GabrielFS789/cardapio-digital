@@ -1,0 +1,65 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Curso\\sistema\\projeto-kaw\\backend\\wwwroot\\imagens\\0168d2e7-2a02-4a8d-b0cb-409054abb0d5.jpg",
+      "PackagePath": "staticwebassets\\imagens\\0168d2e7-2a02-4a8d-b0cb-409054abb0d5.jpg"
+    },
+    {
+      "Id": "C:\\Curso\\sistema\\projeto-kaw\\backend\\wwwroot\\imagens\\5d3b3f0a-ef3e-4af4-86a4-f9a9e67b582f.jpg",
+      "PackagePath": "staticwebassets\\imagens\\5d3b3f0a-ef3e-4af4-86a4-f9a9e67b582f.jpg"
+    },
+    {
+      "Id": "C:\\Curso\\sistema\\projeto-kaw\\backend\\wwwroot\\imagens\\62e6515c-6a49-4949-86e9-31ab67472a4a.jpg",
+      "PackagePath": "staticwebassets\\imagens\\62e6515c-6a49-4949-86e9-31ab67472a4a.jpg"
+    },
+    {
+      "Id": "C:\\Curso\\sistema\\projeto-kaw\\backend\\wwwroot\\imagens\\70cb8377-4481-4d9d-958e-2a24f608c6d5.jpg",
+      "PackagePath": "staticwebassets\\imagens\\70cb8377-4481-4d9d-958e-2a24f608c6d5.jpg"
+    },
+    {
+      "Id": "C:\\Curso\\sistema\\projeto-kaw\\backend\\wwwroot\\imagens\\79c50069-9880-473b-a87c-4bfa51fd24f4.jpg",
+      "PackagePath": "staticwebassets\\imagens\\79c50069-9880-473b-a87c-4bfa51fd24f4.jpg"
+    },
+    {
+      "Id": "C:\\Curso\\sistema\\projeto-kaw\\backend\\wwwroot\\imagens\\824ca9af-eb7e-4dac-b304-a737c85d5f37.jpg",
+      "PackagePath": "staticwebassets\\imagens\\824ca9af-eb7e-4dac-b304-a737c85d5f37.jpg"
+    },
+    {
+      "Id": "C:\\Curso\\sistema\\projeto-kaw\\backend\\wwwroot\\imagens\\84bbc1b3-4615-4ec2-a467-92292abe312d.jpg",
+      "PackagePath": "staticwebassets\\imagens\\84bbc1b3-4615-4ec2-a467-92292abe312d.jpg"
+    },
+    {
+      "Id": "C:\\Curso\\sistema\\projeto-kaw\\backend\\wwwroot\\imagens\\a45bb15c-16af-482f-a1ad-347925757baa.jpg",
+      "PackagePath": "staticwebassets\\imagens\\a45bb15c-16af-482f-a1ad-347925757baa.jpg"
+    },
+    {
+      "Id": "C:\\Curso\\sistema\\projeto-kaw\\backend\\wwwroot\\imagens\\c9079b50-dd91-4a20-ae82-6db914f50342.jpg",
+      "PackagePath": "staticwebassets\\imagens\\c9079b50-dd91-4a20-ae82-6db914f50342.jpg"
+    },
+    {
+      "Id": "C:\\Curso\\sistema\\projeto-kaw\\backend\\wwwroot\\imagens\\d815140b-7c1e-48b8-886d-9abd4a0ee7a2.jpg",
+      "PackagePath": "staticwebassets\\imagens\\d815140b-7c1e-48b8-886d-9abd4a0ee7a2.jpg"
+    },
+    {
+      "Id": "C:\\Curso\\sistema\\projeto-kaw\\backend\\wwwroot\\imagens\\f30077e2-016d-49f0-b909-cdf117908db2.jpg",
+      "PackagePath": "staticwebassets\\imagens\\f30077e2-016d-49f0-b909-cdf117908db2.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.backend.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.backend.props",
+      "PackagePath": "build\\backend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.backend.props",
+      "PackagePath": "buildMultiTargeting\\backend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.backend.props",
+      "PackagePath": "buildTransitive\\backend.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
